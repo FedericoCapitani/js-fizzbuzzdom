@@ -11,7 +11,7 @@ for(i = 1; i <= 100; i++){
         number.classList.add('square', 'bg_fizz')
         console.log('fizz');
     } else if (i % 3 != 0 && i % 5 == 0){
-        // sostituire elementi divisibile per 3 con buzz
+        // sostituire elementi divisibile per 5 con buzz
         let number = document.createElement('span')
         number.append(`Buzz`)
         numberList.append(number)
