@@ -12,10 +12,37 @@ h1{
     text-align: center;
     color: white;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 100px;
 }
 
 .container{
-    margin:  20px 10%;
-    width: 80%;
+    margin:  20px 20%;
+    max-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.bg_number{
+    background-color: #1389b2;
+}
+
+.bg_fizz{
+    background-color: #0bd6a1;
+}
+
+.bg_buzz{
+    background-color: #ffd166;
+}
+.bg_fizzbuzz{
+    background-color: #f0466f;
 }
